@@ -1,0 +1,38 @@
+* {
+  color: #fff;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  height: 500px;
+}
+header, section, aside, footer {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid yellow;
+}
+
+header {
+  background: skyblue;
+}
+
+.menu {
+  background: purple;
+  flex-basis: 250px;
+}
+.link{
+  text-decoration: none;
+}
+.content {
+  background: green;
+  flex-grow: 1;
+  
+}
+
+
+footer {
+
+  background: #616161;
+}
+
+
